@@ -1,0 +1,286 @@
+$active: rgb(56, 98, 161);
+$pasive: rgb(77, 77, 77);
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(65, 65, 65);
+}
+.dots {
+  width: 60px;
+  height: 200px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: $pasive;
+  animation: blink 1s ease-in-out infinite;
+}
+//0
+[class="number-container 0"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 3"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//1
+[class="number-container 1"] {
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//dva
+[class="number-container 2"] {
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 3"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//tri
+[class="number-container 3"] {
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//cetiri
+[class="number-container 4"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//pet
+[class="number-container 5"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//pet
+[class="number-container 5"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//sest
+[class="number-container 6"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 3"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//sedam
+[class="number-container 7"] {
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//osam
+[class="number-container 8"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 3"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+//devet
+[class="number-container 9"] {
+  [class="number-line 0"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 1"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 2"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 4"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 5"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+  [class="number-line 6"] {
+    background-color: $active;
+    box-shadow: 0px 0px 5px 1px rgb(106, 157, 252)
+  }
+}
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
